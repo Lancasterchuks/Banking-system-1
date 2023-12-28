@@ -17,7 +17,7 @@ else:
     print("No deposit will be made.")
   
   
-    def withdraw(self)
+    def withdraw(self):
         confirm_withdraw = input("Are you sure you want to withdraw? (yes/no)")
         if confirm_withdraw.lower() == "yes":
             withdraw_amount = float(input("How much would you like to withdraw?"))
@@ -27,7 +27,7 @@ else:
                 self.balance -= withdraw_amount
                 print("Withdrawal successful")
 
-bank = BankSystem()
+bank = BankSystem(100)
 bank.deposit()
 bank.withdraw()
                   
