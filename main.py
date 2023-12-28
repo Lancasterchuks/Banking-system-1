@@ -15,8 +15,8 @@ if user_input.lower() == "yes":
     bank.deposit()
 else:
     print("No deposit will be made.")
-stem():
-  def __init__(self, balance): 
+ stem():
+def __init__(self, balance): 
       self.balance = balance
 
   def deposit(self):
